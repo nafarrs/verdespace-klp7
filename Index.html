@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerdeSpace - Plant Subscription Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- BAGIAN CEO: Header Section -->
+    <header id="header-section" data-role="CEO">
+        <div class="container nav-wrap">
+            <a href="#hero-section" class="brand">
+                <span class="brand-icon">🌿</span>
+                <span class="brand-text">
+                    <strong>VerdeSpace</strong>
+                    <small>Plants for a Better Space</small>
+                </span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#hero-section" class="active">Beranda</a>
+                <a href="#catalog-section">Katalog</a>
+                <a href="#calc-section">Kalkulator</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- BAGIAN PM 1: Hero Section -->
+    <section id="hero-section" data-role="PM">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="chip">🌱 Plant Subscription Service</span>
+                <h1>VerdeSpace<br><span class="accent">Bring Nature Into Your Space.</span></h1>
+                <p>
+                    Transform your workspace into a refreshing and aesthetic environment with our curated indoor plant subscription service.
+                    VerdeSpace membantu menciptakan suasana meja kerja dan ruang belajar yang lebih segar, nyaman, dan estetik.
+                </p>
+
+                <ul class="benefit-list">
+                    <li><span class="dot">✓</span> Enhance your workspace with natural greenery.</li>
+                    <li><span class="dot">✓</span> Enjoy stylish plants delivered to your space.</li>
+                    <li><span class="dot">✓</span> Easy plant care for everyone.</li>
+                </ul>
+
+                <div class="hero-actions">
+                    <a href="#calc-section" class="btn btn-dark">Explore Our Packages ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="arch"></div>
+                <svg class="plant-svg" viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg" aria-label="Ilustrasi tanaman hias">
+                    <g fill="#2f6b45">
+                        <path d="M150 230 C60 200 40 120 90 70 C130 90 160 150 150 230Z"/>
+                        <path d="M150 230 C240 200 260 120 210 70 C170 90 140 150 150 230Z" fill="#3c8556"/>
+                        <path d="M150 220 C110 170 120 90 150 40 C185 90 190 170 150 220Z" fill="#265a39"/>
+                        <path d="M150 235 C80 245 30 210 20 160 C75 150 130 180 150 235Z" fill="#4a9a68"/>
+                        <path d="M150 235 C220 245 270 210 280 160 C225 150 170 180 150 235Z"/>
+                    </g>
+                    <path d="M85 245 H215 C215 245 220 340 190 350 H110 C80 340 85 245 85 245Z" fill="#e9e4d8"/>
+                    <ellipse cx="150" cy="245" rx="65" ry="12" fill="#d8d1c0"/>
+                </svg>
+                <div class="float-card">
+                    <span class="float-icon">🪴</span>
+                    <p><strong>Perawatan Mudah<br>Tanaman Sehat</strong></p>
+                    <hr>
+                    <p class="float-num">1 Pot</p>
+                    <small>Minimum pembelian</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN PM 2: Catalog Section -->
+    <section id="catalog-section" data-role="PM">
+        <div class="container">
+            <div class="section-head">
+                <span class="chip">🌿 Katalog Paket</span>
+                <h2>Pilih Paket Tanaman Favoritmu</h2>
+                <p>Harga merupakan harga simulasi untuk tugas, bukan harga pasaran aktual.</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <span class="badge">01 · BASIC</span>
+                    <h3>Paket Meja Hijau Kecil</h3>
+                    <p class="price">Rp75.000 <small>/ pot / bulan</small></p>
+                    <p class="desc">Cocok untuk meja belajar atau meja kerja minimalis.</p>
+                    <ul>
+                        <li>1 tanaman hias mini</li>
+                        <li>Pot dekoratif sederhana</li>
+                        <li>Panduan perawatan tanaman</li>
+                    </ul>
+                    <p class="promo-info">🏷️ Kode promo: <b>HIJAU10</b> (diskon 10%)</p>
+                </div>
+
+                <div class="card featured">
+                    <span class="badge">02 · PREMIUM</span>
+                    <h3>Paket Sudut Ruangan Estetik</h3>
+                    <p class="price">Rp150.000 <small>/ pot / bulan</small></p>
+                    <p class="desc">Untuk dekorasi sudut ruangan agar lebih segar dan estetik.</p>
+                    <ul>
+                        <li>1 tanaman hias ukuran sedang</li>
+                        <li>Pot premium minimalis</li>
+                        <li>Panduan perawatan</li>
+                        <li>Rekomendasi penempatan tanaman</li>
+                    </ul>
+                    <p class="promo-info">🏷️ Kode promo: <b>HIJAU10</b> (diskon 10%)</p>
+                </div>
+
+                <div class="card">
+                    <span class="badge">03 · BUSINESS</span>
+                    <h3>Paket Dekorasi Ruang Kerja</h3>
+                    <p class="price">Rp250.000 <small>/ pot / bulan</small></p>
+                    <p class="desc">Untuk ruang kerja atau ruang belajar yang ingin tampil lebih profesional.</p>
+                    <ul>
+                        <li>1 tanaman hias premium</li>
+                        <li>Pot dekoratif eksklusif</li>
+                        <li>Panduan perawatan personal</li>
+                        <li>Konsultasi penempatan tanaman</li>
+                    </ul>
+                    <p class="promo-info">🏷️ Kode promo: <b>HIJAU10</b> (diskon 10%)</p>
+                </div>
+            </div>
+
+            <p class="promo-note">
+                <b>Promo:</b> Gunakan kode <b>HIJAU10</b> atau beli minimal <b>3 pot</b> untuk diskon 10%. Berlaku untuk semua paket.
+            </p>
+        </div>
+    </section>
+
+    <!-- BAGIAN SE 1: Calc Section (Formulir Kalkulator) -->
+    <section id="calc-section" data-role="SE">
+        <div class="container calc-grid">
+            <div class="calc-intro">
+                <span class="chip">🧮 Kalkulator Simulasi</span>
+                <h2>Hitung Biaya Langgananmu</h2>
+                <p>Pilih paket, masukkan jumlah pot, dan gunakan kode promo untuk melihat total pembayaranmu.</p>
+                <ul class="benefit-list">
+                    <li><span class="dot">✓</span> Kode promo <b>HIJAU10</b> = diskon 10%</li>
+                    <li><span class="dot">✓</span> Beli minimal 3 pot = diskon 10%</li>
+                    <li><span class="dot">✓</span> Diskon hanya satu kali (tidak ditumpuk)</li>
+                </ul>
+            </div>
+
+            <div class="calc-box">
+                <label for="paket">Pilih Paket:</label>
+                <select id="paket">
+                    <option value="75000">Paket Meja Hijau Kecil - Rp75.000</option>
+                    <option value="150000">Paket Sudut Ruangan Estetik - Rp150.000</option>
+                    <option value="250000">Paket Dekorasi Ruang Kerja - Rp250.000</option>
+                </select>
+
+                <label for="jumlah">Jumlah Pot:</label>
+                <input type="number" id="jumlah" min="1" value="1" placeholder="Masukkan jumlah pot">
+
+                <label for="promo">Kode Promo:</label>
+                <input type="text" id="promo" placeholder="Ketik kode (misal: HIJAU10)">
+
+                <button type="button" id="btn-hitung" class="btn btn-dark btn-full">Hitung Total Biaya</button>
+
+                <!-- Tempat Hasil Perhitungan -->
+                <div id="hasil" class="hasil">
+                    <p class="hasil-placeholder">Hasil perhitungan akan tampil di sini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN CEO: Footer Section -->
+    <footer id="footer-section" data-role="CEO">
+        <div class="container footer-grid">
+            <div>
+                <h4>🌿 VerdeSpace</h4>
+                <p>Bring Nature Into Your Space.</p>
+            </div>
+            <div>
+                <h4>Tim Kami</h4>
+                <p>Kelas WebDev D &bull; Kelompok 7</p>
+                <p class="members">
+                    Rizqy Danendra Sucahyo (CEO), Muhammad Zola Benzhiro (PM), Muhammad Zola Benzhiro (PM),
+                    Farras Nafisa (UI/UX), Nala Tanisa (UI/UX), Elda Tia Tira Florensia (SE), Ravenska Kyla Inaayah (SE)
+                </p>
+            </div>
+        </div>
+        <div class="copyright">&copy; 2026 VerdeSpace. Kelas WebDev D - Kelompok 7.</div>
+    </footer>
+
+    <!-- Pemanggilan File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
